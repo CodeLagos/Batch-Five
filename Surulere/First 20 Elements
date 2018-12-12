@@ -1,0 +1,155 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package first20elements;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Sulaiman Adeeyo
+ */
+public class First20Elements {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+       
+        Scanner scan = new Scanner (System.in);
+        String first20elements;
+        first20elements = "Hydrogn "
+                + "\n Helium"
+                + "\n Lithium"
+                + "\n Berylium"
+                + "\n Boron"
+                + "\n Carbon"
+                + "\n Nitrogen"
+                + "\n Oxygen"
+                + "\n Fluorine"
+                + "\n Neon"
+                + "\n Sodium"
+                + "\n Magnesium"
+                + "\n Aluminium"
+                + "\n Silicon"
+                + "\n Phosphorus"
+                + "\n Sulfur"
+                + "\n Chlorine"
+                + "\n Argon"
+                + "\n Potassium"
+                + "\n Calcium";
+        System.out.println(first20elements);
+        System.out.println("Do you want to know more about the elements? Yes/No");
+        String reply;
+        reply=scan.nextLine();
+        switch (reply) {
+            case "Yes" :
+        String ElementName;
+        System.out.println("Type The Name of The Element ");
+        
+        ElementName = scan.nextLine();
+        
+        switch (ElementName) {
+            case "Hydrogen":
+                System.out.println("Hydrogen is a chemical element with symbol H and atomic number 1."+ "\n With a standard atomic weight of 1.008, hydrogen is the lightest element on the periodic table." +"\n Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass."
+                        + "\n Electron configuration: 1s^1 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 13.99K" + "\n Boiling point: 20.271K" +"\n Density: 0.08988g/L(STP), 0.07g/cm^3(M.P), 0.07099g/cm^3(B.P)");
+                break;
+                 case "Helium":
+                System.out.println("Helium is a chemical element with symbol He and atomic number 2."+ "\n It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas, the first in the noble gas group in the periodic table." +"\n After hydrogen, helium is the second lightest and second most abundant element in the observable universe, being present at about 24% of the total elemental mass,"
+                        + "\n Electron configuration: 1s^2 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 0.95K(at 25Mpa)" + "\n Boiling point: 4.222K" +"\n Density: 0.1786g/L(STP), 0.145g/cm^3(M.P), 0.125g/cm^3(B.P)");
+                break;
+                 case "Lithium":
+                System.out.println("Lithium is a chemical element with symbol Li and atomic number 3."+ "\n It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element." +"\n Because of its relative nuclear instability, lithium is less common in the solar system than 25 of the first 32 chemical elements even though its nuclei are very light."
+                        + "\n Electron configuration: 1s^2 2s^1 " +"\n Physical Properties" + "\n Phase at STP: Solid" +"\n Melting point: 453.65K" + "\n Boiling point: 1603K" +"\n Density: 0.534g/cm^3(r.t.), 0.512g/cm^3(M.P)");
+                break; case "Beryllium":
+                System.out.println("Beryllium is a chemical element with symbol Be and atomic number 4."+ "\n It is a relatively rare element in the universe, usually occurring as a product of the spallation of larger atomic nuclei that have collided with cosmic rays." + 
+                        "\n Electron configuration: 1s^2s^2 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 1560K" + "\n Boiling point: 2742K" +"\n Density: 1.85g/cm^3(r.t.), 1.690g/cm^3(M.P)");
+                break;
+                 case "Boron":
+                System.out.println("Boron is a chemical element with symbol B and atomic number 5."+ "\nProduced entirely by cosmic ray spallation and supernovae and not by stellar nucleosynthesis." +"\n it is a low-abundance element in the Solar system and in the Earth's crust."
+                        + "\n Electron configuration: 1s^22s^22p^1 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 2349K" + "\n Boiling point: 4200K" +"\n Density:2.08g/cm^3(M.P)");
+                break;
+                 case "Carbon":
+                System.out.println("Carbon is a chemical element with symbol C and atomic number 6."+ "\nIt is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds." +"\n Carbon is the 15th most abundant element in the Earth's crust, and the fourth most abundant element in the universe by mass after hydrogen, helium, and oxygen."
+                        + "\n Electron configuration: 1s^22s^22p^2 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Sublimation point: 3915K" +"\n Density (near r.t.): 1.8 - 2.1g/cm^3(amorphous), 2.267g/cm^3(graphite), 3.515g/cm^3(diamond)");
+                break;
+                 case "Oxygen":
+                System.out.println("Oxygen is a chemical element with symbol O and atomic number 8."+ "\nIt is a member of the chalcogen group on the periodic table, a highly reactive nonmetal, and an oxidizing agent that readily forms oxides with most elements as well as with other compounds." +"\n By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium."
+                        + "\n Electron configuration: 1s^22s^22p^4 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 54.36K" + "\n Boiling point: 90.188K" +"\n Density: 1.429g/L(STP), 1.141g/cm^3(B.P)");
+                break;
+                 case "Nitrogen":
+                System.out.println("Nitrogen is a chemical element with symbol N and atomic number 7."+ "\nNitrogen is the lightest member of group 15 of the periodic table, often called the pnictogens." +"\n The human body contains about 3% nitrogen by mass, the fourth most abundant element in the body after oxygen, carbon, and hydrogen."
+                        + "\n Electron configuration: 1s^22s^22p^3 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 63.15K" + "\n Boiling point: 77.355K" +"\n Density: 1.2504g/L(STP), 0.808g/cm^3(B.P)");
+                break;
+                 case "Fluorine":
+                System.out.println("Fluorine is a chemical element with symbol F and atomic number 9."+ "\nIt is the lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard conditions." +"\n Among the elements, fluorine ranks 24th in universal abundance and 13th in terrestrial abundance."
+                        + "\n Electron configuration: 1s^22s^22p5 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 53.48K" + "\n Boiling point: 85.03K" +"\n Density: 1.696g/L(STP), 1.505g/cm^3(B.P)");
+                break;
+                 case "Neon":
+                System.out.println("Neon is a chemical element with symbol Ne and atomic number 10."+ "\nIt is a noble gas.[10] Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air." +"\n  Neon was the second of these three rare gases to be discovered and was immediately recognized as a new element from its bright red emission spectrum."
+                        + "\n Electron configuration: 1s^22s^22p^6 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 24.56K" + "\n Boiling point: 27.104K" +"\n Density: 0.9002g/L(STP), 1.207g/cm^3(B.P)");
+                break;
+                 case "Sodium":
+                System.out.println("Sodium is a chemical element with symbol Na and atomic number 11."+ "\nIt is a soft, silvery-white, highly reactive metal." +"\n Sodium is the sixth most abundant element in the Earth's crust and exists in numerous minerals such as feldspars, sodalite, and rock salt (NaCl)."
+                        + "\n Electron configuration: [Ne]3s^1 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 370.944K" + "\n Boiling point: 1156.090K" +"\n Density: 0.968g/cm^3(near r.t.), 0.927g/cm^3(M.P)");
+                break;
+                 case "Magnesium":
+                System.out.println("Magnesium is a chemical element with symbol Mg and atomic number 12."+ "\nIt is a shiny gray solid which bears a close physical resemblance to the other five elements in the second column (group 2, or alkaline earth metals) of the periodic table." +"\n Magnesium is the ninth most abundant element in the universe."
+                        + "\n Electron configuration: [Ne]3s^2 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 923K" + "\n Boiling point: 1363K" +"\n Density: 1.783g/cm^3(near r.t.), 1.584g/cm^3(M.P)");
+                break;
+                 case "Aluminium":
+                System.out.println("Aluminium or aluminum is a chemical element with symbol Al and atomic number 13."+ "\nIt is a silvery-white, soft, nonmagnetic and ductile metal in the boron group. By mass, aluminium makes up about 8% of the Earth's crust." +"\n it is the third most abundant element after oxygen and silicon and the most abundant metal in the crust, though it is less common in the mantle below. The chief ore of aluminium is bauxite."
+                        + "\n Electron configuration: [Ne]3s^23p^1 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 933.47K" + "\n Boiling point: 2743K" +"\n Density: 2.70g/cm^3(r.t.), 2.375g/cm^3(M.P)");
+                break;
+                 case "Silicon":
+                System.out.println("Silicon is a chemical element with symbol Si and atomic number 14."+ "\n It is a hard and brittle crystalline solid with a blue-grey metallic lustre; and it is a tetravalent metalloid and semiconductor." +"\n Silicon is the eighth most common element in the universe by mass, but very rarely occurs as the pure element in the Earth's crust."
+                        + "\n Electron configuration: [Ne]3s^23p^2 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 1687K" + "\n Boiling point: 3538K" +"\n Density: 2.3290g/cm^3(near r.t.), 2.57g/cm^3(M.P)");
+                break; 
+                 case "Phosphorus":
+                System.out.println("Phosphorus is a chemical element with symbol P and atomic number 15."+ "\n Elemental phosphorus exists in two major forms, white phosphorus and red phosphorus, but because it is highly reactive, phosphorus is never found as a free element on Earth." +"\n It has a concentration in the Earth's crust of about one gram per kilogram (compare copper at about 0.06 grams)."
+                        + "\n Electron configuration: [Ne]3s^23p^3 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 317.3K" + "\n Boiling point: 553.7K" +"\n Density: (near r.t.)1.823g/cm^3(white), 2.2 - 2.34g/cm^3(red), 2.36g/cm^3(violet), 2.69g/cm^3(black)");
+                break;
+                 case "Sulfur":
+                System.out.println("Sulfur or sulphur is a chemical element with symbol S and atomic number 16."+ "\n It is abundant, multivalent, and nonmetallic. Under normal conditions, sulfur atoms form cyclic octatomic molecules." +"\n Sulfur is the tenth most common element by mass in the universe, and the fifth most common on Earth."
+                        + "\n Electron configuration: [Ne]3s^23p^4 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 388.36K" + "\n Boiling point: 717.8K" +"\n Density: (near r.t.) 2.07g/cm^3(alpha), 1.96g/cm^3(beta), 1.92g/cm^3(gamma), 1.819g/cm^3(M.P)");
+                break; 
+                 case "Chlorine":
+                System.out.println("Chlorine is a chemical element with symbol Cl and atomic number 17."+ "\n The second-lightest of the halogens, it appears between fluorine and bromine in the periodic table and its properties are mostly intermediate between them." +"\n It is the second-most abundant halogen (after fluorine) and twenty-first most abundant chemical element in Earth's crust."
+                        + "\n Electron configuration: [Ne]3s^23p^5 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 171.6K" + "\n Boiling point: 239.11K" +"\n Density: 3.2g/L(STP), 1.5625g/cm^3(B.P)");
+                break;
+                 case "Argon":
+                System.out.println("Argon is a chemical element with symbol Ar and atomic number 18."+ "\n It is in group 18 of the periodic table and is a noble gas." +"\n Argon is the third-most abundant gas in the Earth's atmosphere. Argon is the most abundant noble gas in Earth's crust, comprising 0.00015% of the crust."
+                        + "\n Electron configuration: [Ne]3s^23p^6 " +"\n Physical Properties" + "\n Phase at STP: gas" +"\n Melting point: 83.81K" + "\n Boiling point: 87.302K" +"\n Density: 1.784g/L(STP), 1.3954g/cm^3(B.P)");
+                break;
+                 case "Potassium":
+                System.out.println("Potassium is a chemical element with symbol K and atomic number 19."+ "\n It was first isolated from potash, the ashes of plants, from which its name derives. In the periodic table, potassium is one of the alkali metals." +"\n  Elemental potassium is a soft silvery-white alkali metal that oxidizes rapidly in air and reacts vigorously with water, generating sufficient heat to ignite hydrogen emitted in the reaction, and burning with a lilac-colored flame."
+                        + "\n Electron configuration: [Ar]4s^1 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 336.7K" + "\n Boiling point: 1032K" +"\n Density: 0.862g/cm^3(near r.t.), 0.828g/cm^3(M.P)");
+                 break;
+                 case "Calcium":
+                System.out.println("Calcium is a chemical element with symbol Ca and atomic number 20."+ "\n An alkaline earth metal, calcium is a reactive metal that forms a dark oxide-nitride layer when exposed to air." +"\n  It is the fifth most abundant element in Earth's crust and the third most abundant metal, after iron and aluminium."
+                        + "\n Electron configuration: [Ar]4s^2 " +"\n Physical Properties" + "\n Phase at STP: solid" +"\n Melting point: 115K" + "\n Boiling point: 1757K" +"\n Density: 1.55g/cm^3(near r.t.), 1.378g/cm^3(M.P)");
+                break;
+                
+                
+                
+           
+                 default:
+                     System.out.println("Type the correct name of the elements");
+                     
+                     break;
+              
+        
+        
+        
+        
+    }
+            case "No":
+                 System.out.println("Thank you for using the App");
+                 break;
+            default:
+                System.out.println("Type the right reply");
+        }
+    }
+    }
