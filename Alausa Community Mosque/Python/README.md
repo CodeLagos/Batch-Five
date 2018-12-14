@@ -3,6 +3,7 @@ This is a repository that contains projects of graduates of the Batch 5 of the C
 This is for the Python class.
 
 The names of the project owners are:
-  - Nwaozuzu Onyinyechi Augustina
-  - Adeoya Muyiwa
-  - Olaniyi Seyi Emmanuel
+  - Nwaozuzu Onyinyechi Augustina - Password Generation
+  - Adeoya Muyiwa - Basic Vehicle Simulation
+  - Olaniyi Seyi Emmanuel - School Student Pick up Registration
+  - Udom EkomAbasi Praise - Basic ATM Simulation
