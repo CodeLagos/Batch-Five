@@ -7,3 +7,4 @@ The names of the project owners are:
   - Adeoya Muyiwa - Basic Vehicle Simulation
   - Olaniyi Seyi Emmanuel - School Student Pick up Registration
   - Udom EkomAbasi Praise - Basic ATM Simulation
+  - Ololade Elizabeth Olanrewaju - Simple Inventory System
