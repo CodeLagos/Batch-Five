@@ -1,3 +1,3 @@
 Web Development Project
 
-This is the finalists' web projects url file of this repository.
+This is the finalists' web projectLinks file of this repository.
