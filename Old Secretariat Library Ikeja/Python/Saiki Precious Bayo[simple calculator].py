@@ -1,0 +1,8 @@
+print("Name:Saiki Precious Bayo")
+print("eonimisi@gmail.com")
+print("Center:Lagos state library,old seceteriat,ikeja,lagos state")
+print("simple calculator")
+x = int(input("enter the value of x: "))
+y = int(input("enter the value of y: "))
+formula = (x * y + x * y)
+print (formula)
